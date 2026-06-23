@@ -32,7 +32,7 @@ export const Navbar = () => {
             scrolled ? "text-sienna" : "text-cream text-shadow-soft"
           }`}
         >
-          Il Boccaccio
+          La Vecchia Torre
         </button>
 
         <div className="hidden lg:flex items-center gap-9">

@@ -10,83 +10,62 @@ export const MENU = [
   {
     category: "Antipasti",
     items: [
-      { name: "Salumi e Formaggi del Molise", desc: "Selezione di prodotti caseari e insaccati del territorio" },
-      { name: "Caciocavallo al Tartufo Riscaldato", desc: "Caciocavallo fuso profumato al tartufo nero", signature: true },
-      { name: "Tartare di Black Angus", desc: "Aceto agli agrumi e gin tonic sferificato" },
-      { name: "Tagliere di Prodotti Locali", desc: "Il meglio dell'Alto Molise in un solo morso" },
+      { name: "Antipasto Misto", desc: "Selezione di salumi e formaggi del territorio molisano" },
+      { name: "Bruschette Miste", desc: "Pane casereccio tostato con condimenti della tradizione" },
+      { name: "Crocchette di Patate", desc: "Omaggio della casa per iniziare il pasto", signature: true },
     ],
   },
   {
     category: "Primi Piatti",
     items: [
-      { name: "Risotto Carnaroli BIO al Tartufo Nero", desc: "Tartufo nero di San Pietro Avellana, il nostro piatto firma", signature: true },
-      { name: "Cavatelli, Salsiccia e Burrata", desc: "Crema di melanzane e burrata fresca" },
-      { name: "Cavatelli ai Funghi Porcini", desc: "Funghi porcini e salsiccia del contadino" },
-      { name: "Cavatelli, Fave e Pecorino", desc: "Crema di fave e pecorino stagionato" },
-      { name: "Gnocchi Ripieni", desc: "Fatti a mano, ripieni della tradizione" },
-      { name: "Ravioli Fatti in Casa", desc: "Sfoglia tirata a mano ogni mattina" },
-      { name: "Tagliatella Bianca al Capriolo", desc: "Sugo di capriolo lentamente brasato" },
-      { name: "Tortino", desc: "La sorpresa calda dello chef" },
+      { name: "Fettuccine al Cinghiale", desc: "Ragù di cinghiale lentamente brasato, ricetta della tradizione molisana", signature: true },
+      { name: "Tagliatelle Funghi e Salsiccia", desc: "Funghi di bosco e salsiccia del contadino" },
+      { name: "Spaghetti alla Chitarra con Ortica e Pomodori Confit", desc: "Pasta tirata al mattarello, ortica selvatica e pomodorini confit" },
+      { name: "Ravioloni alla Scapolese", desc: "Fatti a mano ogni giorno, secondo la ricetta della casa", signature: true },
     ],
   },
   {
     category: "Secondi Piatti",
     items: [
-      { name: "Carni a Bassa Temperatura", desc: "Cotture lente che esaltano il sapore" },
-      { name: "Baccalà", desc: "Secondo stagionale secondo disponibilità" },
-      { name: "Selvaggina Locale", desc: "Piatti di cacciagione dei boschi molisani" },
+      { name: "Arrosto Misto di Carni", desc: "Agnello, salsiccia, maialino e manzo cotti al forno della Torre" },
     ],
   },
   {
-    category: "Dolci",
+    category: "Pizze e Calzoni",
     items: [
-      { name: "Brioche Ripiena di Gelato", desc: "Frutti di bosco freschi dell'Alto Molise" },
-      { name: "Gelati Artigianali", desc: "Delicatissimi, mantecati in casa" },
-    ],
-  },
-  {
-    category: "Sera con Pinsa",
-    items: [
-      { name: "Pinsa ai 5 Cereali", desc: "Impasto leggero, lunga lievitazione, con selezione di birre artigianali", signature: true },
-    ],
-  },
-  {
-    category: "Bevande & Bottiglieria",
-    items: [
-      { name: "Vini Molisani Regionali", desc: "Una carta vini che racconta il territorio" },
-      { name: "Birre Artigianali", desc: "Selezione curata per la sera" },
-      { name: "Liquori della Casa", desc: "Prodotti direttamente dall'osteria — acquistabili", signature: true },
+      { name: "Calzoni Fritti al Gorgonzola", desc: "Impasto fritto e gonfio, ripieno filante al gorgonzola", signature: true },
+      { name: "Pizze", desc: "Impasto della casa, cotte secondo la tradizione dell'osteria" },
     ],
   },
 ];
 
 export const REVIEWS = [
-  { quote: "Al di sopra di ogni più rosea aspettativa. Prezzo più che onesto.", author: "Ospite in moto", source: "Google" },
-  { quote: "Come entrare in paradiso: personale meraviglioso, cibo fatto con amore.", author: "Raymond D.", source: "Google" },
-  { quote: "Un menù che rispetta la tradizione molisana legata al tartufo, rivisitata in chiave moderna.", author: "Cliente", source: "TripAdvisor" },
-  { quote: "Gnocco ripieno e tagliatella al sugo di capriolo: le nostre papille gustative hanno festeggiato.", author: "Cliente", source: "Google" },
-  { quote: "Locale pulito, personale attento, cibo abbondante e raffinato. Food 5/5, Service 5/5, Atmosphere 5/5.", author: "Cliente Google", source: "Google" },
-  { quote: "Il Molise esiste ed è bellissimo.", author: "Un motociclista", source: "TripAdvisor" },
+  { quote: "Un'evocativa location dentro un castello medievale, con vista panoramica sulla valle. Un posto che resta nel cuore.", author: "Ospite TripAdvisor", source: "TripAdvisor" },
+  { quote: "Rosa in cucina è bravissima, si sente la passione in ogni piatto che arriva in tavola.", author: "Cliente", source: "Google" },
+  { quote: "Davide ci ha accolti come fossimo di famiglia, raccontandoci anche la storia del borgo. Accoglienza impeccabile.", author: "Cliente", source: "Google" },
+  { quote: "Prezzi onestissimi per la qualità e l'abbondanza dei piatti. Rapporto qualità-prezzo eccellente.", author: "Ospite", source: "TripAdvisor" },
+  { quote: "Tramonto mozzafiato dalla terrazza, con la valle di Isernia che si apre davanti agli occhi.", author: "Cliente", source: "Google" },
+  { quote: "Le fettuccine al cinghiale e i ravioloni fatti a mano sono un'esperienza da non perdere a Fornelli.", author: "Ospite", source: "TripAdvisor" },
 ];
 
 export const IMAGES = {
-  hero: "https://images.pexels.com/photos/2773940/pexels-photo-2773940.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1920",
-  chef: "https://images.pexels.com/photos/36430150/pexels-photo-36430150.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1200",
-  ambiance: "https://images.pexels.com/photos/31771954/pexels-photo-31771954.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1000",
-  territory: "https://images.pexels.com/photos/4147191/pexels-photo-4147191.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1920",
-  truffle: "https://images.pexels.com/photos/9698110/pexels-photo-9698110.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1000",
-  risotto: "https://images.pexels.com/photos/17237177/pexels-photo-17237177.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1000",
-  antipasto: "https://images.pexels.com/photos/29068725/pexels-photo-29068725.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1000",
-  pinsa: "https://images.pexels.com/photos/21753110/pexels-photo-21753110.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1000",
+  hero: "https://images.pexels.com/photos/18455434/pexels-photo-18455434.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1920",
+  chef: "https://images.pexels.com/photos/5251019/pexels-photo-5251019.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1200",
+  territory: "https://images.pexels.com/photos/17125428/pexels-photo-17125428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1920",
+  pastaCinghiale: "https://images.pexels.com/photos/12866988/pexels-photo-12866988.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1000",
+  pastaFunghi: "https://images.pexels.com/photos/1527603/pexels-photo-1527603.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1000",
+  antipasto: "https://images.pexels.com/photos/13084371/pexels-photo-13084371.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1000",
 };
 
 export const INFO = {
-  name: "Il Boccaccio Osteria",
-  tagline: "Cucina di territorio. Sapori autentici. Tartufo nero dell'Alto Molise.",
-  address: "Via Roma 82/A — 86088 San Pietro Avellana (IS), Molise",
-  addressNote: "A 2 km dal centro · Parcheggio disponibile, anche per camper",
-  hours: "Pranzo e Cena · Chiuso il Martedì",
-  chef: "Ermes Colecchia",
-  host: "Roberta",
-  mapEmbed: "https://www.google.com/maps?q=Il+Boccaccio+osteria+San+Pietro+Avellana&output=embed",
+  name: "La Vecchia Torre Osteria Ristorante",
+  tagline: "Cucina di territorio dentro le mura medievali di Fornelli, tra sapori autentici e vista sulla valle.",
+  address: "Piazza Municipio, 1 — 86070 Fornelli (IS), Molise",
+  addressNote: "Dentro la cinta muraria medievale del borgo, con vista panoramica sulla valle di Isernia",
+  hours: "Martedì–Domenica 12:30–15:00 e 19:30–23:00 · Chiuso il Lunedì",
+  phone: "+39 333 678 2068",
+  priceRange: "Prezzo medio €20–30 a persona",
+  chef: "Rosa",
+  host: "Davide",
+  mapEmbed: "https://www.google.com/maps?q=41.6067585,14.1401206&output=embed",
 };

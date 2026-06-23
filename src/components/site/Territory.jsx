@@ -14,16 +14,16 @@ export const Territory = () => {
         <Reveal className="max-w-2xl border border-cream/25 backdrop-blur-sm bg-dark/20 p-10 lg:p-14">
           <p className="text-xs sm:text-sm uppercase tracking-[0.25em] text-gold font-semibold mb-5">Il Territorio</p>
           <h2 className="font-heading font-light text-4xl lg:text-5xl text-cream leading-tight mb-7">
-            San Pietro Avellana, patria del tartufo nero
+            Fornelli, il borgo medievale sulla valle di Isernia
           </h2>
           <div className="space-y-5 text-cream/85 text-base lg:text-lg leading-relaxed">
             <p>
-              Immerso nelle montagne dell'Alto Molise, il borgo di San Pietro Avellana è uno dei cuori italiani del
-              tartufo nero: un dono dei boschi che da generazioni accompagna la nostra cucina.
+              La Vecchia Torre vive dentro la cinta muraria di Fornelli, uno dei borghi medievali meglio conservati
+              dell'Alto Molise, con la sua torre che da secoli domina la valle.
             </p>
             <p>
-              Tutt'intorno, una terra ancora autentica da scoprire: il teatro sannitico di Pietrabbondante, le vette delle
-              Mainarde e le acque del lago di San Vincenzo. Il Molise esiste, ed è bellissimo.
+              Dalla nostra terrazza lo sguardo si perde sulla valle di Isernia, tra tramonti che i nostri ospiti
+              raccontano come indimenticabili. Il Molise esiste, ed è bellissimo.
             </p>
           </div>
           <p className="font-heading italic text-gold text-xl lg:text-2xl mt-8">

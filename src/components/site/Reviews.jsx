@@ -12,18 +12,11 @@ export const Reviews = () => {
             Le parole dei nostri ospiti
           </h2>
           <div className="flex flex-wrap items-center justify-center gap-8">
-            <div data-testid="rating-google" className="flex items-center gap-3">
-              <div className="flex text-gold">
-                {[...Array(5)].map((_, i) => <Star key={i} size={18} fill="currentColor" strokeWidth={0} />)}
-              </div>
-              <span className="text-sm text-text-secondary"><strong className="text-dark">4.7/5</strong> · Google</span>
-            </div>
-            <span className="hidden sm:block w-px h-6 bg-sienna/20" />
             <div data-testid="rating-tripadvisor" className="flex items-center gap-3">
               <div className="flex text-olive">
                 {[...Array(5)].map((_, i) => <Star key={i} size={18} fill="currentColor" strokeWidth={0} />)}
               </div>
-              <span className="text-sm text-text-secondary"><strong className="text-dark">5.0/5</strong> · TripAdvisor — Travellers' Choice</span>
+              <span className="text-sm text-text-secondary"><strong className="text-dark">4.4/5</strong> · TripAdvisor (65 recensioni) — Travelers' Choice</span>
             </div>
           </div>
         </Reveal>
