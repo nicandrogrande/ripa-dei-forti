@@ -6,6 +6,7 @@ import { Hero } from "@/components/site/Hero";
 import { About } from "@/components/site/About";
 import { Menu } from "@/components/site/Menu";
 import { Territory } from "@/components/site/Territory";
+import { IdealFor } from "@/components/site/IdealFor";
 import { Reviews } from "@/components/site/Reviews";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
@@ -18,9 +19,10 @@ const Home = () => (
     <Navbar />
     <main>
       <Hero />
+      <Territory />
       <About />
       <Menu />
-      <Territory />
+      <IdealFor />
       <Reviews />
       <Contact />
     </main>

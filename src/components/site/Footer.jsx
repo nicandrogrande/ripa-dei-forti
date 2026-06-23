@@ -1,4 +1,4 @@
-import { Facebook } from "lucide-react";
+import { Facebook, Instagram } from "lucide-react";
 import { Link } from "react-router-dom";
 import { INFO } from "../../data/content";
 
@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 pb-12 border-b border-cream/10">
           <div className="lg:col-span-6">
             <h3 className="font-heading text-5xl lg:text-7xl font-light leading-none">
-              La Vecchia Torre<br /><span className="italic text-gold">Osteria</span>
+              Ripa dei Forti<br /><span className="italic text-gold">Village</span>
             </h3>
             <p className="text-cream/60 mt-6 max-w-md leading-relaxed">{INFO.tagline}</p>
           </div>
@@ -21,15 +21,18 @@ export const Footer = () => {
           <div className="lg:col-span-3">
             <p className="text-xs uppercase tracking-[0.2em] text-gold font-semibold mb-4">Seguici</p>
             <div className="flex gap-4">
-              <a data-testid="social-facebook" href="https://www.facebook.com/ristorantepizzerialavecchiatorre/" target="_blank" rel="noopener noreferrer" className="border border-cream/20 p-3 hover:bg-gold hover:text-dark hover:border-gold transition-colors" aria-label="Facebook">
+              <a data-testid="social-facebook" href="#" className="border border-cream/20 p-3 hover:bg-gold hover:text-dark hover:border-gold transition-colors" aria-label="Facebook">
                 <Facebook size={20} strokeWidth={1.5} />
+              </a>
+              <a data-testid="social-instagram" href="#" className="border border-cream/20 p-3 hover:bg-gold hover:text-dark hover:border-gold transition-colors" aria-label="Instagram">
+                <Instagram size={20} strokeWidth={1.5} />
               </a>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8">
-          <p className="text-cream/50 text-xs">© {new Date().getFullYear()} La Vecchia Torre Osteria Ristorante — Fornelli (IS)</p>
+          <p className="text-cream/50 text-xs">© {new Date().getFullYear()} Ripa dei Forti Village — Santa Maria del Molise (IS)</p>
           <Link data-testid="privacy-link" to="/privacy" className="text-cream/50 text-xs hover:text-gold transition-colors uppercase tracking-[0.15em]">Privacy Policy</Link>
         </div>
       </div>

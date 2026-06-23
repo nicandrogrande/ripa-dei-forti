@@ -8,20 +8,20 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        heading: ["'Cormorant Garamond'", "serif"],
-        body: ["'Lato'", "sans-serif"],
+        heading: ["'Merriweather'", "serif"],
+        body: ["'Open Sans'", "sans-serif"],
       },
       colors: {
-        cream: '#F2EBDC',
-        'cream-alt': '#E8DEC7',
-        dark: '#2A2825',
+        cream: '#FAF7EE',
+        'cream-alt': '#EFE6D1',
+        dark: '#1F3625',
         sienna: {
-          DEFAULT: '#5C1A22',
-          hover: '#491319',
+          DEFAULT: '#7A4A24',
+          hover: '#5E3A1C',
         },
-        olive: '#6E665A',
-        gold: '#9B7B3F',
-        'text-secondary': '#5A5650',
+        olive: '#56692F',
+        gold: '#A8763E',
+        'text-secondary': '#52584A',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         border: 'hsl(var(--border))',

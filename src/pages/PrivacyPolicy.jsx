@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
           >
             <ArrowLeft size={18} /> Torna al sito
           </Link>
-          <span className="font-heading text-xl lg:text-2xl text-gold">La Vecchia Torre</span>
+          <span className="font-heading text-xl lg:text-2xl text-gold">Ripa dei Forti Village</span>
         </div>
       </header>
 
@@ -37,8 +37,8 @@ export default function PrivacyPolicy() {
 
         <Section title="1. Titolare del trattamento">
           <p>
-            Il titolare del trattamento dei dati è <strong className="text-dark font-normal">La Vecchia Torre Osteria Ristorante</strong>, con sede in {INFO.address}.
-            Per qualsiasi richiesta relativa ai tuoi dati personali puoi contattarci direttamente presso l'osteria.
+            Il titolare del trattamento dei dati è <strong className="text-dark font-normal">Ripa dei Forti Village</strong>, con sede in {INFO.address}.
+            Per qualsiasi richiesta relativa ai tuoi dati personali puoi contattarci direttamente presso il villaggio.
           </p>
         </Section>
 
@@ -79,7 +79,7 @@ export default function PrivacyPolicy() {
           <p>
             In conformità al Regolamento UE 2016/679 (GDPR) hai diritto di accedere ai tuoi dati, richiederne la rettifica o la
             cancellazione, limitarne il trattamento e opporti allo stesso. Per esercitare questi diritti è sufficiente contattare
-            l'osteria.
+            il villaggio.
           </p>
         </Section>
 

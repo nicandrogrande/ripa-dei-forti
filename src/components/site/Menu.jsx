@@ -30,11 +30,11 @@ export const Menu = () => {
         <Reveal className="max-w-3xl mb-16">
           <p className="text-xs sm:text-sm uppercase tracking-[0.25em] text-gold font-semibold mb-5">Il Menu</p>
           <h2 className="font-heading font-light text-4xl lg:text-6xl text-dark leading-tight mb-6">
-            I sapori di Fornelli
+            I sapori del villaggio
           </h2>
           <p className="text-text-secondary text-base lg:text-lg leading-relaxed">
-            Un percorso che intreccia tradizione molisana e cucina di casa. Pasta fatta a mano, carni cotte lentamente
-            e ricette che si tramandano da generazioni, dentro le mura della nostra Torre.
+            Cucina molisana di casa, tra grigliate alla brace, pasta fatta a mano e ricette di famiglia, da gustare
+            con vista sul parco.
           </p>
         </Reveal>
 
@@ -58,16 +58,16 @@ export const Menu = () => {
           </div>
 
           <Reveal delay={0.2} className="lg:col-span-5 lg:sticky lg:top-28 space-y-5">
-            <img src={IMAGES.pastaCinghiale} alt="Fettuccine al cinghiale fatte in casa" className="w-full h-72 object-cover" />
+            <img src={IMAGES.primi} alt="Tagliatelle ai funghi porcini e tartufo nero" className="w-full h-72 object-cover" />
             <div className="grid grid-cols-2 gap-5">
-              <img src={IMAGES.pastaFunghi} alt="Tagliatelle funghi e salsiccia" className="w-full h-44 object-cover" />
-              <img src={IMAGES.antipasto} alt="Antipasto misto di salumi e formaggi" className="w-full h-44 object-cover" />
+              <img src={IMAGES.grigliata} alt="Grigliata mista di carne alla brace" className="w-full h-44 object-cover" />
+              <img src={IMAGES.pizza} alt="Pizza leggera e gustosa" className="w-full h-44 object-cover" />
             </div>
             <div className="border-l-2 border-gold pl-5 py-2">
-              <p className="font-heading text-2xl text-dark italic">La sera, la Pizza.</p>
+              <p className="font-heading text-2xl text-dark italic">Vino alla spina, sempre.</p>
               <p className="text-sm text-text-secondary mt-2 leading-relaxed">
-                In alternativa alla cena tradizionale, proponiamo pizze e calzoni fritti al gorgonzola, cotti secondo
-                la tradizione dell'osteria.
+                Ogni piatto si accompagna bene con il nostro vino alla spina e un buon caffè, prima di tornare a
+                passeggiare nel parco.
               </p>
             </div>
           </Reveal>

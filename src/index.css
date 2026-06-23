@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Lato:wght@300;400;700;900&family=Montserrat:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-    --cream: #FDFBF7;
-    --cream-alt: #F3EFE6;
-    --dark: #1C1914;
-    --sienna: #882D17;
-    --olive: #3B4527;
-    --gold: #C69C36;
-    --text-secondary: #5C5549;
+    --cream: #FAF7EE;
+    --cream-alt: #EFE6D1;
+    --dark: #1F3625;
+    --sienna: #7A4A24;
+    --olive: #56692F;
+    --gold: #A8763E;
+    --text-secondary: #52584A;
 }
 
 * {
@@ -26,7 +26,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: var(--cream);
     color: var(--dark);
     -webkit-font-smoothing: antialiased;
@@ -54,11 +54,11 @@ body {
         --foreground: 40 16% 9%;
         --border: 36 20% 86%;
         --input: 36 20% 86%;
-        --ring: 13 71% 31%;
+        --ring: 95 38% 30%;
         --radius: 0.25rem;
     }
     h1, h2, h3, h4, .font-heading {
-        font-family: 'Cormorant Garamond', serif;
+        font-family: 'Merriweather', serif;
     }
 }
 

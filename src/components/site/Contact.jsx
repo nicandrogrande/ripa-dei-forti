@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Reveal } from "./Reveal";
 import { INFO } from "../../data/content";
-import { MapPin, Clock, Coins, Phone, Check } from "lucide-react";
+import { MapPin, Clock, Car, Phone, Check } from "lucide-react";
 import { toast } from "sonner";
 
 export const Contact = () => {
@@ -37,7 +37,7 @@ export const Contact = () => {
               Riserva il tuo tavolo
             </h2>
             <p className="text-text-secondary mb-9 leading-relaxed">
-              Raccontaci quando vorresti farci visita. Davide ti ricontatterà per confermare la tua prenotazione.
+              Raccontaci quando vorresti farci visita: ti ricontatteremo a breve per confermare la tua prenotazione.
             </p>
 
             <form data-testid="booking-form" onSubmit={submit} className="space-y-7">
@@ -83,9 +83,9 @@ export const Contact = () => {
                 <Clock className="text-gold shrink-0 mt-1" size={22} strokeWidth={1.5} />
                 <p className="text-dark font-semibold">{INFO.hours}</p>
               </div>
-              <div className="flex gap-4" data-testid="info-price">
-                <Coins className="text-gold shrink-0 mt-1" size={22} strokeWidth={1.5} />
-                <p className="text-text-secondary">{INFO.priceRange}</p>
+              <div className="flex gap-4" data-testid="info-parking">
+                <Car className="text-gold shrink-0 mt-1" size={22} strokeWidth={1.5} />
+                <p className="text-text-secondary">{INFO.parkingNote}</p>
               </div>
               <div className="flex gap-4" data-testid="info-phone">
                 <Phone className="text-gold shrink-0 mt-1" size={22} strokeWidth={1.5} />
@@ -96,7 +96,7 @@ export const Contact = () => {
             <div className="flex-1 min-h-[300px] border border-sienna/15">
               <iframe
                 data-testid="map-embed"
-                title="Mappa La Vecchia Torre Osteria Ristorante"
+                title="Mappa Ripa dei Forti Village"
                 src={INFO.mapEmbed}
                 className="w-full h-full min-h-[300px]"
                 style={{ border: 0 }}

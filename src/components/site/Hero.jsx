@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <section data-testid="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
-        <img src={IMAGES.hero} alt="Torre medievale nella cinta muraria di Fornelli" className="w-full h-full object-cover" />
+        <img src={IMAGES.hero} alt="Parco naturale con laghetto a Ripa dei Forti Village" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-dark/55" />
         <div className="absolute inset-0 bg-gradient-to-t from-dark/80 via-transparent to-dark/30" />
       </div>
@@ -20,7 +20,7 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-gold text-xs sm:text-sm uppercase tracking-[0.35em] font-semibold mb-6"
         >
-          Fornelli · Alto Molise
+          Santa Maria del Molise · Alto Molise
         </motion.p>
 
         <motion.h1
@@ -29,8 +29,8 @@ export const Hero = () => {
           transition={{ duration: 1, delay: 0.35 }}
           className="font-heading font-light text-cream text-5xl sm:text-6xl lg:text-8xl leading-[0.95] tracking-tight text-shadow-soft"
         >
-          La Vecchia Torre<br />
-          <span className="italic text-gold">Osteria</span>
+          Ripa dei Forti<br />
+          <span className="italic text-gold">Village</span>
         </motion.h1>
 
         <motion.p
@@ -50,10 +50,10 @@ export const Hero = () => {
         >
           <button
             data-testid="hero-menu-btn"
-            onClick={() => go("menu")}
+            onClick={() => go("villaggio")}
             className="w-full sm:w-auto bg-sienna text-cream text-xs uppercase tracking-[0.2em] font-semibold px-9 py-4 hover:bg-sienna-hover active:scale-[0.98] transition-all"
           >
-            Scopri il Menu
+            Scopri il Parco
           </button>
           <button
             data-testid="hero-reserve-btn"
@@ -66,7 +66,7 @@ export const Hero = () => {
       </div>
 
       <motion.button
-        onClick={() => go("chi-siamo")}
+        onClick={() => go("villaggio")}
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 text-cream/70 z-10"
